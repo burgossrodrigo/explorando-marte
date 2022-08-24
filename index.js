@@ -32,7 +32,7 @@ rl.prompt();
 
 rl.on('line', (name) => {
     name = name.split("")
-    const moves = ['L', 'N', 'W', 'E', 'S', 'R', 'M', 'P']
+    const moves = ['L', 'R', 'M', 'P']
 
     for(let i = 0; i < name.length; i++){   
     if(moves.includes(name[i])){
