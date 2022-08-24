@@ -32,7 +32,6 @@ rl.prompt();
 
 rl.on('line', (name) => {
     name = name.split("")
-    console.log(name.length)
     const moves = ['L', 'N', 'W', 'E', 'S', 'R', 'M', 'P']
 
     for(let i = 0; i < name.length; i++){   
